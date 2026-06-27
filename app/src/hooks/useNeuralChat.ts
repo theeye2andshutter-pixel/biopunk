@@ -6,8 +6,8 @@ const getApiUrl = () => {
     // Local development
     return 'http://localhost:5000';
   }
-  // Production - Reemplaza con tu URL de Render
-  return 'https://your-render-app.onrender.com';
+  // Production
+  return 'https://haters-neural-backend.onrender.com';
 };
 
 export function useNeuralChat() {
